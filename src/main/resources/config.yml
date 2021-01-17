@@ -1,0 +1,22 @@
+strings:
+  errors:
+    nospawnset: "&cSorry, there isn't a spawn location set just yet."
+    noperm: "&cYou have no permission for this!"
+  modpermission: mhub.mod
+  teleportedspawn: "&cYou are now at spawn!"
+data:
+  spawn:
+    world: "notSet"
+    x: 0
+    y: 0
+    z: 0
+scoreboard:
+  title: "&c&lmHub"
+  lines:
+    - "&8&l&m--------------------"
+    - "&f&lRank"
+    - "%vault_rank%"
+    - "&8&l&m-------------------"
+actionbar:
+  enabled: true
+  text: cool actionbar yes sir please

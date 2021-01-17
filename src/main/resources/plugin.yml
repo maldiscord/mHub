@@ -1,0 +1,11 @@
+name: mHub
+version: ${project.version}
+main: lol.maltest.mhub.Main
+load: STARTUP
+authors: [ maltest ]
+description: mHub by maltest
+website: https://mal.codes
+softdepend: [PlaceholderAPI]
+commands:
+  spawn:
+    description: "go to spawn"
